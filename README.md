@@ -1,1 +1,1 @@
-<a href="https://airbnb-2-0-livid.vercel.app/">Link of the project</a>
+<a href="https://airbnb-2-0-livid.vercel.app/" target="_blank">Link of the project</a>
