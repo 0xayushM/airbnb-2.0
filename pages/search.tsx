@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import { useRouter } from 'next/router'
@@ -16,6 +17,7 @@ function Search({searchResults}:any) {
 
   return (
     <div>
+      <Head><title>Airbnb Clone</title></Head>
       <Header placeholder={`${location} | ${range} | ${noOfGuests} guests`} />
       <main className="flex">
         <section className="flex-grow pt-14 px-6">
